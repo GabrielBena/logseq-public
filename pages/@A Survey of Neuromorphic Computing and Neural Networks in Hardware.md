@@ -1,0 +1,11 @@
+links:: [Local library](zotero://select/library/items/N38SUKZD), [Web library](https://www.zotero.org/users/8224007/items/N38SUKZD)
+authors:: [[Catherine D. Schuman]], [[Thomas E. Potok]], [[Robert M. Patton]], [[J. Douglas Birdwell]], [[Mark E. Dean]], [[Garrett S. Rose]], [[James S. Plank]]
+tags:: [[Computer Science - Neural and Evolutionary Computing]]
+date:: [[May 19th, 2017]]
+item-type:: [[preprint]]
+title:: @A Survey of Neuromorphic Computing and Neural Networks in Hardware
+
+- [[Abstract]]
+	- Neuromorphic computing has come to refer to a variety of brain-inspired computers, devices, and models that contrast the pervasive von Neumann computer architecture. This biologically inspired approach has created highly connected synthetic neurons and synapses that can be used to model neuroscience theories as well as solve challenging machine learning problems. The promise of the technology is to create a brain-like ability to learn and adapt, but the technical challenges are significant, starting with an accurate neuroscience model of how the brain works, to finding materials and engineering breakthroughs to build devices to support these models, to creating a programming framework so the systems can learn, to creating applications with brain-like capabilities. In this work, we provide a comprehensive survey of the research and motivations for neuromorphic computing over its history. We begin with a 35-year review of the motivations and drivers of neuromorphic computing, then look at the major research areas of the field, which we define as neuro-inspired models, algorithms and learning approaches, hardware and devices, supporting systems, and finally applications. We conclude with a broad discussion on the major research topics that need to be addressed in the coming years to see the promise of neuromorphic computing fulfilled. The goals of this work are to provide an exhaustive review of the research conducted in neuromorphic computing since the inception of the term, and to motivate further work by illuminating gaps in the field where new research is needed.
+- [[Atachments]]
+	- [schuman_2017_a_survey_of_neuromorphic_computing_and_neural_networks_in_hardware.pdf](zotero://select/library/items/23U6AWCQ) {{zotero-linked-file "Schuman/schuman_2017_a_survey_of_neuromorphic_computing_and_neural_networks_in_hardware.pdf"}}
