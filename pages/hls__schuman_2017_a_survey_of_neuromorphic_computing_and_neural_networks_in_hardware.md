@@ -1,2 +1,2 @@
 file:: [schuman_2017_a_survey_of_neuromorphic_computing_and_neural_networks_in_hardware.pdf](file://C:/Users/gabri/OneDrive-Imperial College London /Zotero_All/Schuman/schuman_2017_a_survey_of_neuromorphic_computing_and_neural_networks_in_hardware.pdf)
-file-path:: file://C:/Users/gabri/OneDrive-Imperial College London /Zotero_All/Schuman/schuman_2017_a_survey_of_neuromorphic_computing_and_neural_networks_in_hardware.pdf
+file-path:: file://C:/Users/gabri/OneDrive - Imperial College London /Zotero_All/Schuman/schuman_2017_a_survey_of_neuromorphic_computing_and_neural_networks_in_hardware.pdf
