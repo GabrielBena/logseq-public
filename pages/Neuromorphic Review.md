@@ -58,6 +58,5 @@ public:: true
 - # Robotics / Applications
 	- ## Resources:
 		- [[@Embodied neuromorphic intelligence]]
-		- /zotero
-	- https://ieeexplore.ieee.org/document/9938437
--
+		- [[@Neuromorphic Computing for Interactive Robotics: A Systematic Review | IEEE Journals & Magazine | IEEE Xplore]]
+		- [[@A review of non-cognitive applications for neuromorphic computing]]
