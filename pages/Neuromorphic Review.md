@@ -24,11 +24,11 @@ public:: true
 		- The notion of stochasticity can be included in the physical substrate, possibly adding robustness to the systems.
 - # Computing
 	- [[@2022 roadmap on neuromorphic computing and engineering]]
-	-
-	- https://arxiv.org/pdf/1506.03264.pdf
+	- [[@Memory and information processing in neuromorphic systems]]
 - # Sensing
-	- https://www.frontiersin.org/articles/10.3389/fnins.2016.00115/full
-	- https://arxiv.org/abs/1904.08405
+	- ## Ressources :
+		- [[@A Review of Current Neuromorphic Approaches for Vision, Auditory, and Olfactory Sensors]]
+		- [[@Event-based Vision: a Survey]]
 	- Traditional sensors are highly redundant :
 		- A camera captures 30 frames a sec, no matter what, if anything, is going on in the scene.
 	- As a results, this generates large volumes of data and excessive power consumption when performing the (much needed) sensory acquisition end of our intelligent systems.
