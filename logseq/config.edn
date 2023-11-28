@@ -416,4 +416,5 @@
  :feature/enable-journals? false
  :feature/enable-whiteboards? false
  :default-home {}
- :feature/enable-flashcards? false}
+ :feature/enable-flashcards? false
+ :zotero/settings-v2 {"default" {:type-id ""}}}
