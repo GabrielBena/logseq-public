@@ -46,7 +46,6 @@ public:: true
 			- Extremely high temporal resolution
 			- No "contre-jour"
 			- Extremely large dynamic range
-	-
 - # Robotics / Applications
 	- https://www.nature.com/articles/s41467-022-28487-2
 	- https://ieeexplore.ieee.org/document/9938437
