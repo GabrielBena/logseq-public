@@ -58,6 +58,6 @@ public:: true
 - # Robotics / Applications
 	- ## Resources:
 		- [[@Embodied neuromorphic intelligence]]
-		-
+		- /zotero
 	- https://ieeexplore.ieee.org/document/9938437
 -
