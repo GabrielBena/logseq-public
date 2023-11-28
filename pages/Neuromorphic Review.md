@@ -30,6 +30,7 @@ public:: true
 	- ## Resources :
 		- [[@A Review of Current Neuromorphic Approaches for Vision, Auditory, and Olfactory Sensors]]
 		- [[@Event-based Vision: a Survey]]
+		- [[@A toolbox for neuromorphic sensing in robotics]]
 	- ## Intro :
 		- Traditional sensors are highly redundant :
 			- A camera captures 30 frames a sec, no matter what, if anything, is going on in the scene.
@@ -56,7 +57,7 @@ public:: true
 		-
 - # Robotics / Applications
 	- ## Resources:
+		- [[@Embodied neuromorphic intelligence]]
 		-
-	- https://www.nature.com/articles/s41467-022-28487-2
 	- https://ieeexplore.ieee.org/document/9938437
 -
