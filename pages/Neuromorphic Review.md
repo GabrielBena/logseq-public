@@ -1,0 +1,53 @@
+public:: true
+
+- {{renderer :tocgen2}}
+- # Intro + Context:
+	- ## Efficiency is what we need !
+		- Currently, the global computational need our species requires about 5 to 15 % of the global energy we produce.
+			- https://www.climatechangenews.com/2017/12/11/tsunami-data-consume-one-fifth-global-electricity-2025/
+		- This is growing ever faster, and will not be sustainable, especially in a world where we need more processing units, on the edge, and ever faster (do we though?)
+		- To keep up with this demand, traditional computers would need to consume around 20 megawatts of power !
+		- To compare, the brain consumes around 20W and is still the most adaptable, robust and interesting intelligent system we know so far
+		- So all in all, if we want to continue to increase in intelligent systems, without requiring ever larger resources from our finite world, and trying to approach intelligent system design is a somewhat parsimonious way, efficiency is what we need to strive for.
+	- ## Limits of current processing systems :
+		- ### The Von Neumann Bottleneck and the end of Moore
+			- We are reaching the physical limit of the amount of transistors we can pack, putting the end to good old Moore's Law.
+				- https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338
+			- Physical separation of memory and computing units, and the need to send information back and forth between the two at ever greater speeds, creates a bottleneck.
+			- Faster compute becomes harder to achieve, and ever more expensive and consuming as we just saw (Dennard scaling).
+			- Systems do not scale so easily.
+			- Need for a central clock to syncronize everything, meaning for faster compute we need to increase clock speeds, and encounter the bottleneck again
+	- ## Meanwhile, using neuromorphic computing :
+		- Memory and processing are co-located, meaning the bottleneck disapears, as well as the high energy cost of central memory.
+		- That also makes it natively scalable, especially in when using local rules.
+		- Everything is event-based asynchronous, meaning energy usage scales locally with demands.
+		- The notion of stochasticity can be included in the physical substrate, possibly adding robustness to the systems.
+- # Computing
+	- https://iopscience.iop.org/article/10.1088/2634-4386/ac4a83
+	- https://arxiv.org/pdf/1506.03264.pdf
+- # Sensing
+	- https://www.frontiersin.org/articles/10.3389/fnins.2016.00115/full
+	- https://arxiv.org/abs/1904.08405
+	- Traditional sensors are highly redundant :
+		- A camera captures 30 frames a sec, no matter what, if anything, is going on in the scene.
+	- As a results, this generates large volumes of data and excessive power consumption when performing the (much needed) sensory acquisition end of our intelligent systems.
+	- On the contrary, as we've seen in the case of computation, biology has found much more effective ways to do said acquisition.
+	- ## Vision :
+		- As stated earlier, traditional cameras are in a way pretty stupid, producing enormous amount of redundant data when a scene, or part of a scene is static. On the other hand, they equally fail to capture high-temporal resolution scenes, without requiring event more data and energy consumption.
+		- The first silicon retina was modeled by Mead and Mahowald in 1991, and by emulating biological retina capabilites (mimicing cone cells), they were able to drasticilly change this data and energy hungry paradigm.
+		- In an event-based camera, every input pixel is independant, and performing its own data aquisition procedure :
+			- If a luminosity change is detected, a pixel will ouput the precise time (t), location (x, y) and sign of the change (p).
+			- This results in a continuous stream of (almost) binary events coming in from every input pixels... Seems like it's something we could use for our SNNs !
+		- This results in a lot of challenges :
+			- A stream of event is a completely new paradigm when it comes to data. We need to understand how to handle it, and how to detach ourselves from "understanding" the raw data, compared to images. Luckily, this is also perfectly suited to be used with SNNs!
+			- Depending on the hardware we use, events can have a sub-ms latency, meaning any computation carried on later-on will also have to process data on the same time-scale, or this high temporal resolution will be lost.
+		- But also great advantages :
+			- Sub-ms latency
+			- Extremely high temporal resolution
+			- No "contre-jour"
+			- Extremely large dynamic range
+	-
+- # Robotics / Applications
+	- https://www.nature.com/articles/s41467-022-28487-2
+	- https://ieeexplore.ieee.org/document/9938437
+-
