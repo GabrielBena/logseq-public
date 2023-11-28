@@ -23,16 +23,19 @@ public:: true
 		- Everything is event-based asynchronous, meaning energy usage scales locally with demands.
 		- The notion of stochasticity can be included in the physical substrate, possibly adding robustness to the systems.
 - # Computing
-	- [[@2022 roadmap on neuromorphic computing and engineering]]
-	- [[@Memory and information processing in neuromorphic systems]]
+	- ## Resources:
+		- [[@2022 roadmap on neuromorphic computing and engineering]]
+		- [[@Memory and information processing in neuromorphic systems]]
 - # Sensing
-	- ## Ressources :
+	- ## Resources :
 		- [[@A Review of Current Neuromorphic Approaches for Vision, Auditory, and Olfactory Sensors]]
 		- [[@Event-based Vision: a Survey]]
-	- Traditional sensors are highly redundant :
-		- A camera captures 30 frames a sec, no matter what, if anything, is going on in the scene.
-	- As a results, this generates large volumes of data and excessive power consumption when performing the (much needed) sensory acquisition end of our intelligent systems.
-	- On the contrary, as we've seen in the case of computation, biology has found much more effective ways to do said acquisition.
+	- ## Intro :
+		- Traditional sensors are highly redundant :
+			- A camera captures 30 frames a sec, no matter what, if anything, is going on in the scene.
+		- As a results, this generates large volumes of data and excessive power consumption when performing the (much needed) sensory acquisition end of our intelligent systems.
+		- On the contrary, as we've seen in the case of computation, biology has found much more effective ways to do said acquisition.
+		- Just as we need to make computation more efficient, in order to have autonomous agent, evolving and interacting in our world, we must make data q
 	- ## Vision :
 		- As stated earlier, traditional cameras are in a way pretty stupid, producing enormous amount of redundant data when a scene, or part of a scene is static. On the other hand, they equally fail to capture high-temporal resolution scenes, without requiring event more data and energy consumption.
 		- The first silicon retina was modeled by Mead and Mahowald in 1991, and by emulating biological retina capabilites (mimicing cone cells), they were able to drasticilly change this data and energy hungry paradigm.
