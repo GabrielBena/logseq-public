@@ -23,7 +23,8 @@ public:: true
 		- Everything is event-based asynchronous, meaning energy usage scales locally with demands.
 		- The notion of stochasticity can be included in the physical substrate, possibly adding robustness to the systems.
 - # Computing
-	- https://iopscience.iop.org/article/10.1088/2634-4386/ac4a83
+	- [[@2022 roadmap on neuromorphic computing and engineering]]
+	-
 	- https://arxiv.org/pdf/1506.03264.pdf
 - # Sensing
 	- https://www.frontiersin.org/articles/10.3389/fnins.2016.00115/full
