@@ -35,7 +35,7 @@ public:: true
 			- A camera captures 30 frames a sec, no matter what, if anything, is going on in the scene.
 		- As a results, this generates large volumes of data and excessive power consumption when performing the (much needed) sensory acquisition end of our intelligent systems.
 		- On the contrary, as we've seen in the case of computation, biology has found much more effective ways to do said acquisition.
-		- Just as we need to make computation more efficient, in order to have autonomous agent, evolving and interacting in our world, we must make data q
+		- Just as we need to make computation more efficient, in order to have autonomous agent, evolving and interacting in our world, we must make data acquisition parcimonious and robust. This is what neuromorphic sensing is about
 	- ## Vision :
 		- As stated earlier, traditional cameras are in a way pretty stupid, producing enormous amount of redundant data when a scene, or part of a scene is static. On the other hand, they equally fail to capture high-temporal resolution scenes, without requiring event more data and energy consumption.
 		- The first silicon retina was modeled by Mead and Mahowald in 1991, and by emulating biological retina capabilites (mimicing cone cells), they were able to drasticilly change this data and energy hungry paradigm.
@@ -50,7 +50,13 @@ public:: true
 			- Extremely high temporal resolution
 			- No "contre-jour"
 			- Extremely large dynamic range
+		- ## Audio :
+		- ## Olfactory :
+		- ## Tactile
+		-
 - # Robotics / Applications
+	- ## Resources:
+		-
 	- https://www.nature.com/articles/s41467-022-28487-2
 	- https://ieeexplore.ieee.org/document/9938437
 -
