@@ -417,4 +417,4 @@
  :feature/enable-whiteboards? false
  :default-home {}
  :feature/enable-flashcards? false
- :zotero/settings-v2 {"default" {:type-id ""}}}
+ :zotero/settings-v2 {"default" {:type-id "8224007", :attachments-block-text "[[Atachments]]", :zotero-linked-attachment-base-directory ""}}}
