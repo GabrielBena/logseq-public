@@ -27,6 +27,7 @@ public:: true
 		- [[@2022 roadmap on neuromorphic computing and engineering]]
 		- [[@Memory and information processing in neuromorphic systems]]
 		- [[@A Survey of Neuromorphic Computing and Neural Networks in Hardware]]
+		-
 - # Sensing
 	- ## Resources :
 		- [[@A Review of Current Neuromorphic Approaches for Vision, Auditory, and Olfactory Sensors]]
