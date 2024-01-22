@@ -1,7 +1,6 @@
 on:
-  release:
-    types: [edited]
-
+  release
+  
 permissions:
   contents: write
 jobs:
