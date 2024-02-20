@@ -37,4 +37,4 @@
 		- ## [[@Q-SpiNN: A Framework for Quantizing Spiking :]]
 			- ### Main Findings / Summary :
 				- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
-				-
+				- Indeed, different combination in
