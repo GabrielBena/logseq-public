@@ -40,4 +40,8 @@
 				- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
 					- Pareto Front
 				- Could be combined nicely with Hessian analysis ?
+				- An SNN family is created by choosing different schemes (Post training vs In training) and precisions per parameters. Then the pareto optimal family is extracted.
+				-
+			- ### Limitations :
+				- Seems very expensive ?
 				-
