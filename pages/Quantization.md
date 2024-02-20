@@ -1,2 +1,5 @@
 - The goal here is to present a short overview of different papers regarding quantization in both #SNN and #ANN. Ideally, that'd lead to a more structured synthesis down the line.
--
+- # Literature Review:
+	- ## [[@Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference]] :
+		- ###
+	-
