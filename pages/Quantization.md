@@ -14,4 +14,6 @@
 		- ### Limitations:
 			- The accuracy losses ranging from 2% to 10% with higher accuracy drop for smaller networks when reducing the precision of weights to four bits.
 			- The need for further research to enhance the automated quantization tool to enable better quantization of networks.|
-	-
+	- ## [[@Quantizing Spiking Neural Networks with Integers]]:
+		- ### Main Findi
+		-
