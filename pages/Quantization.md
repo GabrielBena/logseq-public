@@ -2,11 +2,13 @@
 - {{renderer :tocgen2}}
 - # Literature Review:
 	- ## [[@Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference]] :
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Quantization Scheme (affine mapping)
 			- Quantization framework  for training (simulated quantization)
 			- Quant-aware training helps to keep accuracies close to original, and contribute in advancing the latency-acc tradeoff.
 	- ## [[@Quantizing deep convolutional networks for efficient inference: A whitepaper]]:
+	  collapsed:: true
 		- ### Main Findings / Summary:
 			- Quantizing weights and activations to 8-bits post-training can produce classification accuracies within 2% of floating point networks for a wide variety of CNN architectures.
 			- Model sizes can be reduced by a factor of 4 by quantizing weights to 8 bits, even when 8-bit arithmetic is not supported.
@@ -15,6 +17,7 @@
 			- The accuracy losses ranging from 2% to 10% with higher accuracy drop for smaller networks when reducing the precision of weights to four bits.
 			- The need for further research to enhance the automated quantization tool to enable better quantization of networks.|
 	- ## [[@Quantizing Spiking Neural Networks with Integers]]:
+	  collapsed:: true
 		- ### Main Findings / Summary:
 			- Developing low-power SNNs is crucial for autonomous agents: SNNs trained with reduced precision can significantly reduce memory usage by ~73% with minimal test error increase.
 			- The biggest effect comes from quantizing neural dynamics, while gradients and error propagation had marginal effects.
@@ -23,6 +26,7 @@
 			- The active areas of investigation regarding the effects of restricting the temporal dynamics in SNNs to forms that are amenable to efficient-digital hardware
 			- The requirement for further investigations to better understand the complex trade-offs
 	- ## [[@Hessian Aware Quantization of Spiking Neural Networks]]:
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- The use of layer-wise Hessian trace analysis to guide the allocation of layer-specific bit-precision in quantizing a Spiking Neural Network (SNN).
 			- Higher Hessian trace means bigger eigenvalues, aka less stability of the weights regarding gradient changes.
@@ -34,17 +38,19 @@
 			- Small number of layers (3) but limitation of SNNs more than anything
 			- Bit precision attribution performed by hand rather than using Pareto optimality front
 			- Only simulated quantization
-		- ## [[@Q-SpiNN: A Framework for Quantizing Spiking :]]
-			- ### Main Findings / Summary :
-				- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
-				- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
-					- Pareto Front
-				- Could be combined nicely with Hessian analysis ?
-				- An SNN family is created by choosing different schemes (Post training vs In training) and precisions per parameters. Then the pareto optimal family is extracted.
-				- Results :
-					- Unsupervised, able to keep acc in 1% and reduce footprint by ~4
-					- Supervised : able to keep acc in 2% and reduce footprint by ~2
-			- ### Limitations :
-				- Seems very expensive ?
-				- Results are not that impressive ?
-				-
+	- ## [[@Q-SpiNN: A Framework for Quantizing Spiking :]]
+	  collapsed:: true
+		- ### Main Findings / Summary :
+			- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
+			- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
+				- Pareto Front
+			- Could be combined nicely with Hessian analysis ?
+			- An SNN family is created by choosing different schemes (Post training vs In training) and precisions per parameters. Then the pareto optimal family is extracted.
+			- Results :
+				- Unsupervised, able to keep acc in 1% and reduce footprint by ~4
+				- Supervised : able to keep acc in 2% and reduce footprint by ~2
+		- ### Limitations :
+			- Seems very expensive ?
+			- Results are not that impressive ?
+			-
+	- ##
