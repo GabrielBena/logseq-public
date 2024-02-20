@@ -64,9 +64,10 @@
 			- The use of cosine annealing scheduling can improve the performance of Spiking Neural Networks (SNNs) and Quantized SNNs (QSNNs) by escaping local minima and challenging networks with ill-defined gradients.
 			- Performance degradation when quantizing weights is less with cosine annealing compared to other non-periodic schedules.
 			- Cosine scheduling almost always achieved smaller variance of accuracy when compared to the alternatives, indicating its consistency in improving performance.
+			- ((65d48153-97bb-4915-aeee-11b30580b920))
 		- ### Limitations :
 			- Existing mitigation techniques require additional memory or increased computational complexity during training
 			- Avoidance of modification of neuron models or any other technique that is not common practice in DL to avoid adding overhead at runtime
 			- Extended training duration for cosine annealing as a cost to consider
 			- Need for more optimal step sizes and frequencies to improve results obtained from alternative schedules in the quantized case
--
+	-
