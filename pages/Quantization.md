@@ -41,15 +41,18 @@
 			- Bit precision attribution performed by hand rather than using Pareto optimality front
 			- Only simulated quantization
 	- ## [[@Q-SpiNN: A Framework for Quantizing Spiking Neural Networks]]
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
 			- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
 				- Pareto Front
+				- ((65d48102-013e-4516-ad73-dfe37cee4de0))
 			- Could be combined nicely with Hessian analysis ?
 			- An SNN family is created by choosing different schemes (Post training vs In training) and precisions per parameters. Then the pareto optimal family is extracted.
 			- Results :
 				- Unsupervised, able to keep acc in 1% and reduce footprint by ~4
 				- Supervised : able to keep acc in 2% and reduce footprint by ~2
+			- ((65d48126-84a3-431e-85cb-bbf64b22134d))
 		- ### Limitations :
 			- Seems very expensive ?
 			- Results are not that impressive ?
