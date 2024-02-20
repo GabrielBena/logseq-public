@@ -1,0 +1,11 @@
+links:: [Local library](zotero://select/library/items/53MCWMBU), [Web library](https://www.zotero.org/users/8224007/items/53MCWMBU)
+authors:: [[Hin Wai Lui]], [[Emre Neftci]]
+tags:: [[Computer Science - Neural and Evolutionary Computing]]
+date:: [[Aug 23rd, 2021]]
+item-type:: [[preprint]]
+title:: @Hessian Aware Quantization of Spiking Neural Networks
+
+- [[Abstract]]
+	- To achieve the low latency, high throughput, and energy efficiency benefits of Spiking Neural Networks (SNNs), reducing the memory and compute requirements when running on a neuromorphic hardware is an important step. Neuromorphic architecture allows massively parallel computation with variable and local bit-precisions. However, how different bit-precisions should be allocated to different layers or connections of the network is not trivial. In this work, we demonstrate how a layer-wise Hessian trace analysis can measure the sensitivity of the loss to any perturbation of the layer's weights, and this can be used to guide the allocation of a layer-specific bit-precision when quantizing an SNN. In addition, current gradient based methods of SNN training use a complex neuron model with multiple state variables, which is not ideal for compute and memory efficiency. To address this challenge, we present a simplified neuron model that reduces the number of state variables by 4-fold while still being compatible with gradient based training. We find that the impact on model accuracy when using a layer-wise bit-precision correlated well with that layer's Hessian trace. The accuracy of the optimal quantized network only dropped by 0.2%, yet the network size was reduced by 58%. This reduces memory usage and allows fixed-point arithmetic with simpler digital circuits to be used, increasing the overall throughput and energy efficiency.
+- [[Atachments]]
+	- [lui_2021_hessian aware quantization of spiking neural networks.pdf](zotero://select/library/items/NULKGJQH) {{zotero-linked-file "Lui/lui_2021_hessian aware quantization of spiking neural networks.pdf"}}
