@@ -34,4 +34,6 @@
 			- Small number of layers (3) but limitation of SNNs more than anything
 			- Bit precision attribution performed by hand rather than using Pareto optimality front
 			- Only simulated quantization
-	-
+		- ## [[@Q-SpiNN: A Framework for Quantizing Spiking :]]
+			- ### Main Findings / Summary :
+				-
