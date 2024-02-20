@@ -26,6 +26,9 @@
 		- ### Main Findings / Summary :
 			- The use of layer-wise Hessian trace analysis to guide the allocation of layer-specific bit-precision in quantizing a Spiking Neural Network (SNN).
 			- Higher Hessian trace means bigger eigenvalues, aka less stability of the weights regarding gradient changes.
-			- Hessian trace is tractable to compute using a random
-			- The accuracy of the optimal quantized network only dropped by 0.3%, while the network size was reduced by 58%.
+			- Hessian trace is tractable to compute using a random sample algorithm.
 			- The Hessian trace increased 4-fold from layer L1 to L3, providing valuable information for determining the optimal layer-wise bit-precision for quantization.
+				- Seems like deeper layers need more precision
+			- The accuracy of the optimal quantized network only dropped by 0.3%, while the network size was reduced by 58%.
+		- ### Limitations :
+			-
