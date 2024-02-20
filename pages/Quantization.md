@@ -41,7 +41,10 @@
 					- Pareto Front
 				- Could be combined nicely with Hessian analysis ?
 				- An SNN family is created by choosing different schemes (Post training vs In training) and precisions per parameters. Then the pareto optimal family is extracted.
-				- Results : Unsupervised, able to keep acc in 1% and re
+				- Results :
+					- Unsupervised, able to keep acc in 1% and reduce footprint by ~4
+					- Supervised : able to keep acc in 2% and reduce footprint by ~2
 			- ### Limitations :
 				- Seems very expensive ?
+				- Results are not that impressive ?
 				-
