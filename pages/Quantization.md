@@ -1,4 +1,5 @@
 - The goal here is to present a short overview of different papers regarding quantization in both #SNN and #ANN. Ideally, that'd lead to a more structured synthesis down the line.
+- {{renderer :tocgen2}}
 - # Literature Review:
 	- ## [[@Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference]] :
 		- ### Main Findings / Summary :
@@ -6,9 +7,11 @@
 			- Quantization framework  for training (simulated quantization)
 			- Quant-aware training helps to keep accuracies close to original, and contribute in advancing the latency-acc tradeoff.
 	- ## [[@Quantizing deep convolutional networks for efficient inference: A whitepaper]]:
-		- ## Main Findings / Summary:
+		- ### Main Findings / Summary:
 			- Quantizing weights and activations to 8-bits post-training can produce classification accuracies within 2% of floating point networks for a wide variety of CNN architectures.
 			- Model sizes can be reduced by a factor of 4 by quantizing weights to 8 bits, even when 8-bit arithmetic is not supported.
 			- Quantization-aware training can further reduce the gap to floating point to 1% at 8-bit precision and allows for reducing the precision of weights to four bits with accuracy losses ranging from 2% to 10%.
-		- ## Limitations
+		- ### Limitations:
+			- The accuracy losses ranging from 2% to 10% with higher accuracy drop for smaller networks when reducing the precision of weights to four bits.
+			- The need for further research to enhance the automated quantization tool to enable better quantization of networks.|
 	-
