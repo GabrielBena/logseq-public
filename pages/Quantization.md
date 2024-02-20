@@ -75,5 +75,7 @@
 		- Quantization function is defined as a sum of step functions, and approximated during training with sigmoids functions.
 			- ((65d48349-54ff-4e45-90a3-c6ff3ae478a5))
 		- A coeffcicient T controls how steep the sigmoids are, hence how close they are to the actual step function, but also how little theey allowed gradient flow.
-		-
+		- ((65d483e3-06ce-447f-9966-ed3609e5b839))
 		- T starts small and increases over training, in a sort of curriculum learning.
+		- Authors show very competitive performance across almost all quantization levels.
+		-
