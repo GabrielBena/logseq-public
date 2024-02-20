@@ -54,6 +54,7 @@
 			- Results are not that impressive ?
 			-
 	- ## [[@Navigating Local Minima in Quantized Spiking Neural Networks]]:
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- The paper presents a systematic evaluation of a cosine-annealed LR schedule coupled with weight-independent adaptive moment estimation for Quantized SNNs.
 			- The use of cosine annealing scheduling can improve the performance of Spiking Neural Networks (SNNs) and Quantized SNNs (QSNNs) by escaping local minima and challenging networks with ill-defined gradients.
