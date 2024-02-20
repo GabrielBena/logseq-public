@@ -74,4 +74,6 @@
 		- This paper shows how to do quantization-aware training, using a differentiable quantization function to preserve gradients more closely.
 		- Quantization function is defined as a sum of step functions, and approximated during training with sigmoids functions.
 			- ((65d48349-54ff-4e45-90a3-c6ff3ae478a5))
-		- A coeffcicient T
+		- A coeffcicient T controls how steep the sigmoids are, hence how close they are to the actual step function, but also how little theey allowed gradient flow.
+		-
+		- T starts small and increases over training, in a sort of curriculum learning.
