@@ -39,4 +39,5 @@
 				- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
 				- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
 					- Pareto Front
+				- Could be combined nicely with Hessian analysis ?
 				-
