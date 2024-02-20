@@ -26,6 +26,7 @@
 			- The active areas of investigation regarding the effects of restricting the temporal dynamics in SNNs to forms that are amenable to efficient-digital hardware
 			- The requirement for further investigations to better understand the complex trade-offs
 	- ## [[@Hessian Aware Quantization of Spiking Neural Networks]]:
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- The use of layer-wise Hessian trace analysis to guide the allocation of layer-specific bit-precision in quantizing a Spiking Neural Network (SNN).
 			- Higher Hessian trace means bigger eigenvalues, aka less stability of the weights regarding gradient changes.
@@ -33,12 +34,13 @@
 			- The Hessian trace increased 4-fold from layer L1 to L3, providing valuable information for determining the optimal layer-wise bit-precision for quantization.
 				- Seems like deeper layers need more precision
 			- The accuracy of the optimal quantized network only dropped by 0.3%, while the network size was reduced by 58%.
+			- ((65d48090-91ce-4113-b5e8-c95d59130dc9))
+			-
 		- ### Limitations :
 			- Small number of layers (3) but limitation of SNNs more than anything
 			- Bit precision attribution performed by hand rather than using Pareto optimality front
 			- Only simulated quantization
-	- ## [[@Q-SpiNN: A Framework for Quantizing Spiking :]]
-	  collapsed:: true
+	- ##
 		- ### Main Findings / Summary :
 			- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
 			- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
