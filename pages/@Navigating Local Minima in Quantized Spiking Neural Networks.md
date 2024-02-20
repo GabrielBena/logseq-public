@@ -1,0 +1,12 @@
+links:: [Local library](zotero://select/library/items/VQC8BJ49), [Web library](https://www.zotero.org/users/8224007/items/VQC8BJ49)
+authors:: [[Jason K. Eshraghian]], [[Corey Lammie]], [[Mostafa Rahimi Azghadi]], [[Wei D. Lu]]
+tags:: [[Computer Science - Machine Learning]], [[Computer Science - Neural and Evolutionary Computing]]
+date:: [[Feb 15th, 2022]]
+item-type:: [[preprint]]
+title:: @Navigating Local Minima in Quantized Spiking Neural Networks
+
+- [[Abstract]]
+	- Spiking and Quantized Neural Networks (NNs) are becoming exceedingly important for hyper-efficient implementations of Deep Learning (DL) algorithms. However, these networks face challenges when trained using error backpropagation, due to the absence of gradient signals when applying hard thresholds. The broadly accepted trick to overcoming this is through the use of biased gradient estimators: surrogate gradients which approximate thresholding in Spiking Neural Networks (SNNs), and Straight-Through Estimators (STEs), which completely bypass thresholding in Quantized Neural Networks (QNNs). While noisy gradient feedback has enabled reasonable performance on simple supervised learning tasks, it is thought that such noise increases the difficulty of finding optima in loss landscapes, especially during the later stages of optimization. By periodically boosting the Learning Rate (LR) during training, we expect the network can navigate unexplored solution spaces that would otherwise be difficult to reach due to local minima, barriers, or flat surfaces. This paper presents a systematic evaluation of a cosine-annealed LR schedule coupled with weight-independent adaptive moment estimation as applied to Quantized SNNs (QSNNs). We provide a rigorous empirical evaluation of this technique on high precision and 4-bit quantized SNNs across three datasets, demonstrating (close to) state-of-the-art performance on the more complex datasets. Our source code is available at this link: https://github.com/jeshraghian/QSNNs.
+- [[Atachments]]
+	- [Code](https://github.com/jeshraghian/QSNNs)
+	- [eshraghian_2022_navigating local minima in quantized spiking neural networks.pdf](zotero://select/library/items/77FA44SQ) {{zotero-linked-file "Eshraghian/eshraghian_2022_navigating local minima in quantized spiking neural networks.pdf"}}

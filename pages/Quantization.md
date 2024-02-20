@@ -53,4 +53,6 @@
 			- Seems very expensive ?
 			- Results are not that impressive ?
 			-
-	- ##
+	- ## [[@Navigating Local Minima in Quantized Spiking Neural Networks]]:
+		- ### Main Findings / Summary :
+			-
