@@ -17,7 +17,7 @@
 	- ## [[@Quantizing Spiking Neural Networks with Integers]]:
 		- ### Main Findings / Summary:
 			- Developing low-power SNNs is crucial for autonomous agents; SNNs trained with reduced precision can significantly reduce memory usage by ~73% with minimal test error increase.
-			- The biggest effect comes from
+			- The biggest effect comes from quantizing neural dynamics, while gradients and error propagation
 		- ### Limitations:
 			- Need for further study on the interaction and trade-offs in the context of SNNs
 			- The active areas of investigation regarding the effects of restricting the temporal dynamics in SNNs to forms that are amenable to efficient-digital hardware
