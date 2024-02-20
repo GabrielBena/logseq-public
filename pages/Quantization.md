@@ -4,5 +4,6 @@
 		- ### Main Findings / Summary :
 			- Quantization Scheme (affine mapping)
 			- Quantization framework  for training (simulated quantization)
-			-
+			- Quant-aware training helps to keep accuracies close to original, and contribute in advancing the latency-acc tradeoff.
+	- /zoter
 	-
