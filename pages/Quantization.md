@@ -90,5 +90,6 @@
 			- Need to align quantization methods in ANNs when training before converting, to make it work nicely with SNNs
 		- Able to create SNNs with very low latency, while using low precision activations
 		- Demonstrate how sensitive output layer is, and how the precision-latency tradeoff behaves at this layer :
+			- ((65d487ea-8562-4ca1-96ae-5b184585809a))
 		-
 -
