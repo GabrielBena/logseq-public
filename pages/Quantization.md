@@ -31,4 +31,5 @@
 				- Seems like deeper layers need more precision
 			- The accuracy of the optimal quantized network only dropped by 0.3%, while the network size was reduced by 58%.
 		- ### Limitations :
-			-
+			- Small number of layers (3) but limitation of SNNs more than anything
+			- Bit precision attri
