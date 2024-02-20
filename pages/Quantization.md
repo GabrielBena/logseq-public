@@ -21,5 +21,4 @@
 			- Need for further study on the interaction and trade-offs in the context of SNNs
 			- The active areas of investigation regarding the effects of restricting the temporal dynamics in SNNs to forms that are amenable to efficient-digital hardware
 			- The requirement for further investigations to better understand the complex trade-offs
-			- The impact of computing neural dynamics at reduced precision on SNN performance, while the precision with which error, gradient, and local classifier calculations are performed had mostly marginal effects
 		-
