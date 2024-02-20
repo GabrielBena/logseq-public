@@ -70,4 +70,5 @@
 			- Avoidance of modification of neuron models or any other technique that is not common practice in DL to avoid adding overhead at runtime
 			- Extended training duration for cosine annealing as a cost to consider
 			- Need for more optimal step sizes and frequencies to improve results obtained from alternative schedules in the quantized case
+	- ## [[@Low Precision Quantization-aware Training in Spiking Neural Networks with Differentiable Quantization Function]]:
 	-

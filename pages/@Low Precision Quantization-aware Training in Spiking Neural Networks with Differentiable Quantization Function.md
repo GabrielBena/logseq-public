@@ -1,0 +1,11 @@
+links:: [Local library](zotero://select/library/items/C8LH6HMK), [Web library](https://www.zotero.org/users/8224007/items/C8LH6HMK)
+authors:: [[Ayan Shymyrbay]], [[Mohammed E. Fouda]], [[Ahmed Eltawil]]
+tags:: [[Computer Science - Neural and Evolutionary Computing]]
+date:: [[May 30th, 2023]]
+item-type:: [[preprint]]
+title:: @Low Precision Quantization-aware Training in Spiking Neural Networks with Differentiable Quantization Function
+
+- [[Abstract]]
+	- Deep neural networks have been proven to be highly effective tools in various domains, yet their computational and memory costs restrict them from being widely deployed on portable devices. The recent rapid increase of edge computing devices has led to an active search for techniques to address the above-mentioned limitations of machine learning frameworks. The quantization of artificial neural networks (ANNs), which converts the full-precision synaptic weights into low-bit versions, emerged as one of the solutions. At the same time, spiking neural networks (SNNs) have become an attractive alternative to conventional ANNs due to their temporal information processing capability, energy efficiency, and high biological plausibility. Despite being driven by the same motivation, the simultaneous utilization of both concepts has yet to be thoroughly studied. Therefore, this work aims to bridge the gap between recent progress in quantized neural networks and SNNs. It presents an extensive study on the performance of the quantization function, represented as a linear combination of sigmoid functions, exploited in low-bit weight quantization in SNNs. The presented quantization function demonstrates the state-of-the-art performance on four popular benchmarks, CIFAR10-DVS, DVS128 Gesture, N-Caltech101, and N-MNIST, for binary networks (64.05\%, 95.45\%, 68.71\%, and 99.43\% respectively) with small accuracy drops and up to 31$\times$ memory savings, which outperforms existing methods.
+- [[Atachments]]
+	- [shymyrbay_2023_low precision quantization-aware training in spiking neural networks with.pdf](zotero://select/library/items/4HZ9QQMD) {{zotero-linked-file "Shymyrbay/shymyrbay_2023_low precision quantization-aware training in spiking neural networks with.pdf"}}
