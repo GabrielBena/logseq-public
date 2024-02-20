@@ -40,7 +40,7 @@
 			- Small number of layers (3) but limitation of SNNs more than anything
 			- Bit precision attribution performed by hand rather than using Pareto optimality front
 			- Only simulated quantization
-	- ##
+	- ## [[@Q-SpiNN: A Framework for Quantizing Spiking Neural Networks]]
 		- ### Main Findings / Summary :
 			- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
 			- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
