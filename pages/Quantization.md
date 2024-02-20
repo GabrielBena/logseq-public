@@ -88,5 +88,6 @@
 		- Identifies a few main reasons of acc drop when using QSSNs :
 			- Noise in the activity of the network, mainly unwanted spikes, called occasional noise
 			- Need to align quantization methods in ANNs when training before converting, to make it work nicely with SNNs
-		- Able to create SNNs with very low latency, while using
+		- Able to create SNNs with very low latency, while using low precision activations\
+		-
 -
