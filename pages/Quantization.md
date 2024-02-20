@@ -2,5 +2,6 @@
 - # Literature Review:
 	- ## [[@Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference]] :
 		- ### Main Findings / Summary :
-			-
+			- Quantization Scheme (affine mapping)
+			- Quantization framework
 	-
