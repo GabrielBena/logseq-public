@@ -72,4 +72,6 @@
 			- Need for more optimal step sizes and frequencies to improve results obtained from alternative schedules in the quantized case
 	- ## [[@Low Precision Quantization-aware Training in Spiking Neural Networks with Differentiable Quantization Function]]:
 		- This paper shows how to do quantization-aware training, using a differentiable quantization function to preserve gradients more closely.
-		- Quanti
+		- Quantization function is defined as a sum of step functions, and approximated during training with sigmoids functions.
+			- ((65d48349-54ff-4e45-90a3-c6ff3ae478a5))
+		- A coeffcicient T
