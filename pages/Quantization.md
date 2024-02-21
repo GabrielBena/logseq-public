@@ -71,6 +71,7 @@
 			- Extended training duration for cosine annealing as a cost to consider
 			- Need for more optimal step sizes and frequencies to improve results obtained from alternative schedules in the quantized case
 	- ## [[@Low Precision Quantization-aware Training in Spiking Neural Networks with Differentiable Quantization Function]]:
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- This paper shows how to do quantization-aware training, using a differentiable quantization function to preserve gradients more closely.
 			- Quantization function is defined as a sum of step functions, and approximated during training with sigmoids functions.
@@ -83,7 +84,6 @@
 		- ### Limitations :
 			- No mentions of latency ?
 	- ## [[@Quantization Framework for Fast Spiking Neural Networks]]:
-	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Identifies a few main reasons of acc drop when using QSSNs :
 				- Noise in the activity of the network, mainly unwanted spikes, called occasional noise
