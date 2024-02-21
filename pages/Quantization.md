@@ -71,7 +71,6 @@
 			- Extended training duration for cosine annealing as a cost to consider
 			- Need for more optimal step sizes and frequencies to improve results obtained from alternative schedules in the quantized case
 	- ## [[@Low Precision Quantization-aware Training in Spiking Neural Networks with Differentiable Quantization Function]]:
-	  collapsed:: true
 		- ### Main Findings / Summary :
 			- This paper shows how to do quantization-aware training, using a differentiable quantization function to preserve gradients more closely.
 			- Quantization function is defined as a sum of step functions, and approximated during training with sigmoids functions.
