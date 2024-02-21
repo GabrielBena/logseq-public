@@ -41,7 +41,6 @@
 			- Bit precision attribution performed by hand rather than using Pareto optimality front
 			- Only simulated quantization
 	- ## [[@Q-SpiNN: A Framework for Quantizing Spiking Neural Networks]]
-	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
 			- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
@@ -71,7 +70,6 @@
 			- Extended training duration for cosine annealing as a cost to consider
 			- Need for more optimal step sizes and frequencies to improve results obtained from alternative schedules in the quantized case
 	- ## [[@Low Precision Quantization-aware Training in Spiking Neural Networks with Differentiable Quantization Function]]:
-	  collapsed:: true
 		- ### Main Findings / Summary :
 			- This paper shows how to do quantization-aware training, using a differentiable quantization function to preserve gradients more closely.
 			- Quantization function is defined as a sum of step functions, and approximated during training with sigmoids functions.
@@ -83,13 +81,13 @@
 			- ((65d484ab-c5e8-4152-a11b-f0ee719fc3be))
 		- ### Limitations :
 			- No mentions of latency ?
-- ## [[@Quantization Framework for Fast Spiking Neural Networks]]:
-	- ### Main Findings / Summary :
-		- Identifies a few main reasons of acc drop when using QSSNs :
-			- Noise in the activity of the network, mainly unwanted spikes, called occasional noise
-			- Need to align quantization methods in ANNs when training before converting, to make it work nicely with SNNs
-		- Able to create SNNs with very low latency, while using low precision activations
-		- Demonstrate how sensitive output layer is, and how the precision-latency tradeoff behaves at this layer :
-			- ((65d487ea-8562-4ca1-96ae-5b184585809a))
-		-
+	- ## [[@Quantization Framework for Fast Spiking Neural Networks]]:
+		- ### Main Findings / Summary :
+			- Identifies a few main reasons of acc drop when using QSSNs :
+				- Noise in the activity of the network, mainly unwanted spikes, called occasional noise
+				- Need to align quantization methods in ANNs when training before converting, to make it work nicely with SNNs
+			- Able to create SNNs with very low latency, while using low precision activations
+			- Demonstrate how sensitive output layer is, and how the precision-latency tradeoff behaves at this layer :
+				- ((65d487ea-8562-4ca1-96ae-5b184585809a))
+			-
 -
