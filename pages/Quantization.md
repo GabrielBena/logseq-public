@@ -83,7 +83,7 @@
 			- ((65d484ab-c5e8-4152-a11b-f0ee719fc3be))
 		- ### Limitations :
 			- No mentions of latency ?
-	- ## [[@Quantization Framework for Fast Spiking Neural Networks]]:
+	- ## [[@Quantization Framework for Fast Spiking Neural Networks]]
 	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Identifies a few main reasons of acc drop when using QSSNs :
@@ -93,4 +93,3 @@
 			- Demonstrate how sensitive output layer is, and how the precision-latency tradeoff behaves at this layer :
 				- ((65d487ea-8562-4ca1-96ae-5b184585809a))
 			-
--
