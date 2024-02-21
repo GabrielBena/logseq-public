@@ -41,6 +41,7 @@
 			- Bit precision attribution performed by hand rather than using Pareto optimality front
 			- Only simulated quantization
 	- ## [[@Q-SpiNN: A Framework for Quantizing Spiking Neural Networks]]
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
 			- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
@@ -57,7 +58,6 @@
 			- Results are not that impressive ?
 			-
 	- ## [[@Navigating Local Minima in Quantized Spiking Neural Networks]]:
-	  collapsed:: true
 		- ### Main Findings / Summary :
 			- The paper presents a systematic evaluation of a cosine-annealed LR schedule coupled with weight-independent adaptive moment estimation for Quantized SNNs.
 			- The use of cosine annealing scheduling can improve the performance of Spiking Neural Networks (SNNs) and Quantized SNNs (QSNNs) by escaping local minima and challenging networks with ill-defined gradients.
@@ -70,6 +70,7 @@
 			- Extended training duration for cosine annealing as a cost to consider
 			- Need for more optimal step sizes and frequencies to improve results obtained from alternative schedules in the quantized case
 	- ## [[@Low Precision Quantization-aware Training in Spiking Neural Networks with Differentiable Quantization Function]]:
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- This paper shows how to do quantization-aware training, using a differentiable quantization function to preserve gradients more closely.
 			- Quantization function is defined as a sum of step functions, and approximated during training with sigmoids functions.
@@ -82,6 +83,7 @@
 		- ### Limitations :
 			- No mentions of latency ?
 	- ## [[@Quantization Framework for Fast Spiking Neural Networks]]:
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Identifies a few main reasons of acc drop when using QSSNs :
 				- Noise in the activity of the network, mainly unwanted spikes, called occasional noise
