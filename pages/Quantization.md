@@ -84,6 +84,7 @@
 		- ### Limitations :
 			- No mentions of latency ?
 	- ## [[@Quantization Framework for Fast Spiking Neural Networks]]:
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Identifies a few main reasons of acc drop when using QSSNs :
 				- Noise in the activity of the network, mainly unwanted spikes, called occasional noise
