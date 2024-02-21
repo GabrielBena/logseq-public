@@ -41,7 +41,6 @@
 			- Bit precision attribution performed by hand rather than using Pareto optimality front
 			- Only simulated quantization
 	- ## [[@Q-SpiNN: A Framework for Quantizing Spiking Neural Networks]]
-	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Core idea is to try and find the optimal mixed approach for quantizing not only weights, but other quantities as well (neuronal dynamics).
 			- Indeed, different combination in precision could lead to the same accuracy, but with different memory footprints
@@ -84,6 +83,7 @@
 		- ### Limitations :
 			- No mentions of latency ?
 	- ## [[@Quantization Framework for Fast Spiking Neural Networks]]:
+	  collapsed:: true
 		- ### Main Findings / Summary :
 			- Identifies a few main reasons of acc drop when using QSSNs :
 				- Noise in the activity of the network, mainly unwanted spikes, called occasional noise
