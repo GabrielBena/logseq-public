@@ -26,3 +26,8 @@ file-path:: ../assets/ALIFE_2024_Leniabreeder_1712749909943_0.pdf
   hl-page:: 3
   hl-color:: yellow
   id:: 6616806c-3c30-44ae-b34a-bdd14f3ec32f
+- Soliton
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 661681c1-4b1d-4159-9ff3-e863f25f4579

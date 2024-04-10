@@ -166,5 +166,22 @@
                                    :height 1584}),
                           :page 3},
                :content {:text "We adopt a methodology that is not goal-directed, making it inherently closer to the nature of biological evolution"},
+               :properties {:color "yellow"}}
+              {:id #uuid "661681c1-4b1d-4159-9ff3-e863f25f4579",
+               :page 4,
+               :position {:bounding {:x1 639.046875,
+                                     :y1 1082.5625,
+                                     :x2 704.554931640625,
+                                     :y2 1107.5625,
+                                     :width 1224,
+                                     :height 1584},
+                          :rects ({:x1 639.046875,
+                                   :y1 1082.5625,
+                                   :x2 704.554931640625,
+                                   :y2 1107.5625,
+                                   :width 1224,
+                                   :height 1584}),
+                          :page 4},
+               :content {:text "Soliton"},
                :properties {:color "yellow"}}],
- :extra {:page 5}}
+ :extra {:page 4}}
