@@ -16,3 +16,13 @@ file-path:: ../assets/ALIFE_2024_Leniabreeder_1712749909943_0.pdf
   hl-page:: 3
   hl-color:: yellow
   id:: 66167fe5-03fc-4ea5-9b1b-20221ea585aa
+- Additionally, the concept of truly unbounded evolution is questioned by the eventual fate of our universe: the theoretical heat death suggests that even nature’s seemingly infinite wellspring of novelty and creativity is ultimately finite 
+  ls-type:: annotation
+  hl-page:: 3
+  hl-color:: yellow
+  id:: 6616803c-2f45-4400-ab9a-af66428c8199
+- We adopt a methodology that is not goal-directed, making it inherently closer to the nature of biological evolution
+  ls-type:: annotation
+  hl-page:: 3
+  hl-color:: yellow
+  id:: 6616806c-3c30-44ae-b34a-bdd14f3ec32f
