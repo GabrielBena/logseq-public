@@ -36,3 +36,8 @@ file-path:: ../assets/ALIFE_2024_Leniabreeder_1712749909943_0.pdf
   hl-page:: 5
   hl-color:: yellow
   id:: 6616828d-63fb-46fb-b42b-26c800cbba1a
+- Moreover, this definition of self-organization and stability has limitations, as it tends to penalize individuals exhibiting periodic stability or engaging in chaotic movements
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 66168304-c846-4246-9c80-80f9ec92a470
