@@ -31,3 +31,8 @@ file-path:: ../assets/ALIFE_2024_Leniabreeder_1712749909943_0.pdf
   hl-page:: 4
   hl-color:: yellow
   id:: 661681c1-4b1d-4159-9ff3-e863f25f4579
+- latent vector back to the original input to compute the loss, that is optimized via gradient descent.
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 6616828d-63fb-46fb-b42b-26c800cbba1a
