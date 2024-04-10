@@ -1,2 +1,2 @@
-# Quick commentaries on Maxence's Paper:
+# Quick reviews on Maxence's Paper:
 	-
