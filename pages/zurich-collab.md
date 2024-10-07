@@ -9,7 +9,7 @@
 		- Available literature:
 			- [[@Neural Modularity Helps Organisms Evolve to Learn New Skills without Forgetting Old Skills]]
 				- Oldie but goodie paper showing how evolved networks (no GD) end up being more modular when cost-minimization is applied, which in turn make them better at retaining knowledge
-			-
+			- [[@Modular Growth of Hierarchical Networks: Efficient, General, and Robust Curriculum Learning]]
 				- Paper showing that a (very) strong architectural bias perfectly suited for a task enables it to learn more tasks without forgetting, compared to monolothic arch trained end-to-end that suffers from forgetting and interferences.
 			- {{cloze }}
 				- Paper creating a family of task composed of rules to be applied to inputs, and measures the resulting modularity of trained networks and the effect of such modularity on generalization.
