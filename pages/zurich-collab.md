@@ -18,8 +18,7 @@
 				- Paper showing modular design can lead to better sample efficiency and generalization in RL tasks.
 			- [[@RECURRENT INDEPENDENT MECHANISMS]]
 			- [[@Systematic Generalization: What Is Required and Can It Be Learned?]]
-			-
-			- [[@Inductive biases of neural network modularity in spatial navigation]]
+			- [[@Modular Networks: Learning to Decompose Neural Computation]]
 			-
 	- ### Question 2 : For a given problem, what's the optimal modularity we need ?
 		-
