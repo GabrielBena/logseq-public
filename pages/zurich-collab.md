@@ -16,9 +16,9 @@
 				- ((6703fd20-f78a-4c73-962f-ed385ca5e2bf))
 			- [[@Combining Modular Skills in Multitask Learning]]
 				- Paper showing modular design can lead to better sample efficiency and generalization in RL tasks.
-			- [[@RECURRENT INDEPENDENT MECHANISMS]] /
+			- [[@RECURRENT INDEPENDENT MECHANISMS]]
 			- [[@Systematic Generalization: What Is Required and Can It Be Learned?]]
-			- [[@Modular Networks: Learning to Decompose Neural Computation]]
+			-
 			- [[@Inductive biases of neural network modularity in spatial navigation]]
 			-
 	- ### Question 2 : For a given problem, what's the optimal modularity we need ?
