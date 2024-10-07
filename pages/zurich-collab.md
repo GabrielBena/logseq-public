@@ -1,4 +1,6 @@
-## First Meeting
+public:: true
+
+- ## First Meeting
 	- ### Question 1: Are structurally modular networks better at solving compositionnal tasks ?
 		- Is SM a good *inductive architectural bias* ?
 		- At *equal number of parameters*, can modular networks outperfom monolithic ones ?
@@ -19,6 +21,7 @@
 			- [[@RECURRENT INDEPENDENT MECHANISMS]]
 			- [[@Systematic Generalization: What Is Required and Can It Be Learned?]]
 			- [[@Modular Networks: Learning to Decompose Neural Computation]]
-			-
+			- [[@Inductive biases of neural network modularity in spatial navigation]]
 	- ### Question 2 : For a given problem, what's the optimal modularity we need ?
+		- This is in sort the inverse problem of the first one. Letting structure emerge from the requirements of the tasks
 		-
