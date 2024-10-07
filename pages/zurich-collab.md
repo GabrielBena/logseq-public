@@ -8,7 +8,8 @@ public:: true
 			- Does this inductive bias allows for faster convergence towards good solutions?
 			- Does it lead to faster fine-tuning / adaptation
 				- This starts to go in the continual learning domain
-		- Available literature:
+		- **Available literature:**
+		  collapsed:: true
 			- [[@Neural Modularity Helps Organisms Evolve to Learn New Skills without Forgetting Old Skills]]
 				- Oldie but goodie paper showing how evolved networks (no GD) end up being more modular when cost-minimization is applied, which in turn make them better at retaining knowledge
 			- [[@Modular Growth of Hierarchical Networks: Efficient, General, and Robust Curriculum Learning]]
@@ -18,10 +19,12 @@ public:: true
 				- ((6703fd20-f78a-4c73-962f-ed385ca5e2bf))
 			- [[@Combining Modular Skills in Multitask Learning]]
 				- Paper showing modular design can lead to better sample efficiency and generalization in RL tasks.
-			- [[@RECURRENT INDEPENDENT MECHANISMS]]
 			- [[@Systematic Generalization: What Is Required and Can It Be Learned?]]
+				- As said before, this work shows that modularity can indeed improve on generalization abilities but is hardly found end-to-end when not explicitely regularized
+			- [[@RECURRENT INDEPENDENT MECHANISMS]]
 			- [[@Modular Networks: Learning to Decompose Neural Computation]]
 			- [[@Inductive biases of neural network modularity in spatial navigation]]
+		- **Outst**
 	- ### Question 2 : For a given problem, what's the optimal modularity we need ?
 		- This is in sort the inverse problem of the first one. Letting structure emerge from the requirements of the tasks
 		-
