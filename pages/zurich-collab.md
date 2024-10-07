@@ -24,9 +24,11 @@ public:: true
 			- [[@RECURRENT INDEPENDENT MECHANISMS]]
 			- [[@Modular Networks: Learning to Decompose Neural Computation]]
 			- [[@Inductive biases of neural network modularity in spatial navigation]]
-		- **Outstanding Questions**
+		- ****
 			- It seems there is a solid body of work showing a strong link between modularity (in a functional sens most of the time) and the ability to generalize / compose
-			- However most of these work nuance this by showing that modular solutions are hard to attain under standard **unconstrained**
+			- However most of these work nuance this by showing that modular solutions are hard to attain under standard **unconstrained** optimization
+			- This is where we come into play ! Our hardware conditions could constrain modules sufficiently to lead to strong modularity in the networks, which in turn enable better generalization ?
+			-
 	- ### Question 2 : For a given problem, what's the optimal modularity we need ?
 		- This is in sort the inverse problem of the first one. Letting structure emerge from the requirements of the tasks
 		-
