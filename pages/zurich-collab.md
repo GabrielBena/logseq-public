@@ -11,12 +11,12 @@
 				- Oldie but goodie paper showing how evolved networks (no GD) end up being more modular when cost-minimization is applied, which in turn make them better at retaining knowledge
 			- [[@Modular Growth of Hierarchical Networks: Efficient, General, and Robust Curriculum Learning]]
 				- Paper showing that a (very) strong architectural bias perfectly suited for a task enables it to learn more tasks without forgetting, compared to monolothic arch trained end-to-end that suffers from forgetting and interferences.
-			- {{cloze }}
+			- [[@Is a Modular Architecture Enough?]]
 				- Paper creating a family of task composed of rules to be applied to inputs, and measures the resulting modularity of trained networks and the effect of such modularity on generalization.
-				- ((6703f38d-6c21-4755-b2c0-29233d31f200))
+				- ((6703fd20-f78a-4c73-962f-ed385ca5e2bf))
 			- [[@Combining Modular Skills in Multitask Learning]]
 				- Paper showing modular design can lead to better sample efficiency and generalization in RL tasks.
-			- [[@RECURRENT INDEPENDENT MECHANISMS]]
+			- [[@RECURRENT INDEPENDENT MECHANISMS]] /
 			- [[@Systematic Generalization: What Is Required and Can It Be Learned?]]
 			- [[@Modular Networks: Learning to Decompose Neural Computation]]
 			- [[@Inductive biases of neural network modularity in spatial navigation]]
