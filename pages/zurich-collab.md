@@ -2,14 +2,14 @@ public:: true
 
 - ## First Meeting
 	- ### Question 1: Are structurally modular networks better at solving compositionnal tasks ?
-		- Is SM a good *inductive architectural bias* ?
-		- At *equal number of parameters*, can modular networks outperfom monolithic ones ?
-		- Can we take into account not only pure performance but also *sample efficiency* ?
-			- Does this inductive bias allows for faster convergence towards good solutions?
-			- Does it lead to faster fine-tuning / adaptation
-				- This starts to go in the continual learning domain
+		- **Questions**
+			- Is SM a good *inductive architectural bias* ?
+			- At *equal number of parameters*, can modular networks outperfom monolithic ones ?
+			- Can we take into account not only pure performance but also *sample efficiency* ?
+				- Does this inductive bias allows for faster convergence towards good solutions?
+				- Does it lead to faster fine-tuning / adaptation
+					- This starts to go in the continual learning domain
 		- **Available literature:**
-		  collapsed:: true
 			- [[@Neural Modularity Helps Organisms Evolve to Learn New Skills without Forgetting Old Skills]]
 				- Oldie but goodie paper showing how evolved networks (no GD) end up being more modular when cost-minimization is applied, which in turn make them better at retaining knowledge
 			- [[@Modular Growth of Hierarchical Networks: Efficient, General, and Robust Curriculum Learning]]
@@ -24,7 +24,7 @@ public:: true
 			- [[@RECURRENT INDEPENDENT MECHANISMS]]
 			- [[@Modular Networks: Learning to Decompose Neural Computation]]
 			- [[@Inductive biases of neural network modularity in spatial navigation]]
-		- ****
+		- **Goals**
 			- It seems there is a solid body of work showing a strong link between modularity (in a functional sens most of the time) and the ability to generalize / compose
 			- However most of these work nuance this by showing that modular solutions are hard to attain under standard **unconstrained** optimization
 			- This is where we come into play ! Our hardware conditions could constrain modules sufficiently to lead to strong modularity in the networks, which in turn enable better generalization ?
