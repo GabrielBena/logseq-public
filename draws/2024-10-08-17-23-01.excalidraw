@@ -390,8 +390,8 @@
         "type": 2
       },
       "seed": 1157554579,
-      "version": 85,
-      "versionNonce": 285643069,
+      "version": 86,
+      "versionNonce": 873676083,
       "isDeleted": false,
       "boundElements": [
         {
@@ -401,9 +401,13 @@
         {
           "id": "AS-Gb7CgLkQUIHVsm1E8E",
           "type": "arrow"
+        },
+        {
+          "id": "weQb4J5vOs7hufnrNajGc",
+          "type": "arrow"
         }
       ],
-      "updated": 1728401158694,
+      "updated": 1728401266405,
       "link": null,
       "locked": false
     },
@@ -848,10 +852,10 @@
     {
       "id": "weQb4J5vOs7hufnrNajGc",
       "type": "arrow",
-      "x": 147.65100945366754,
-      "y": 195.29762776692706,
-      "width": 82.85736083984375,
-      "height": 2.1428680419921875,
+      "x": 142.92809296894615,
+      "y": 202.23595318301918,
+      "width": 81.38003383948698,
+      "height": 1.2746069213656313,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -866,11 +870,11 @@
         "type": 2
       },
       "seed": 539179229,
-      "version": 31,
-      "versionNonce": 989068947,
+      "version": 170,
+      "versionNonce": 910804499,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1728401237999,
+      "updated": 1728401266822,
       "link": null,
       "locked": false,
       "points": [
@@ -879,19 +883,95 @@
           0
         ],
         [
-          -82.85736083984375,
-          2.1428680419921875
+          -81.38003383948698,
+          1.2746069213656313
         ]
       ],
       "lastCommittedPoint": null,
-      "startBinding": null,
+      "startBinding": {
+        "elementId": "TnGQGCssEAyS7jqifMs-x",
+        "focus": -0.2752214582975801,
+        "gap": 4.767132621401288
+      },
       "endBinding": {
         "elementId": "ZN-KY1k067ph_CcskNKpk",
-        "focus": 0.010519803097912006,
-        "gap": 1
+        "focus": 0.07202974844684086,
+        "gap": 1.0000000000000142
       },
       "startArrowhead": null,
       "endArrowhead": "arrow"
+    },
+    {
+      "id": "HO4SsJLZ9OCi1kVIQa0Al",
+      "type": "text",
+      "x": 89.88181786477726,
+      "y": 206.95244143989848,
+      "width": 53.91422702263507,
+      "height": 17.55936482231532,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1145601277,
+      "version": 92,
+      "versionNonce": 1644516349,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1728401286699,
+      "link": null,
+      "locked": false,
+      "text": "extract",
+      "fontSize": 14.047491857852256,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 12,
+      "containerId": null,
+      "originalText": "extract",
+      "lineHeight": 1.25
+    },
+    {
+      "type": "text",
+      "version": 118,
+      "versionNonce": 1721395763,
+      "isDeleted": false,
+      "id": "PWFiHISOWjrTXfeMa0_Ai",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 327.6470959069476,
+      "y": 199.31520834255795,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 53.91422702263507,
+      "height": 17.55936482231532,
+      "seed": 1167490451,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1728401289580,
+      "link": null,
+      "locked": false,
+      "fontSize": 14.047491857852256,
+      "fontFamily": 1,
+      "text": "extract",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "extract",
+      "lineHeight": 1.25,
+      "baseline": 12
     }
   ],
   "appState": {
