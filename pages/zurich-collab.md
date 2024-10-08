@@ -34,4 +34,5 @@ public:: true
 		- This is in sort the inverse problem of the first one. Letting structure emerge from the requirements of the tasks
 		-
 - ## Second meeting
-	- # background-color:: yellow
+	- [[draws/2024-10-08-17-23-01.excalidraw]]
+	-
