@@ -2,6 +2,7 @@ public:: true
 
 - ## First Meeting
 	- ### Question 1: Are structurally modular networks better at solving compositionnal tasks ?
+	  collapsed:: true
 		- **Questions**
 			- Is SM a good *inductive architectural bias* ?
 			- At *equal number of parameters*, can modular networks outperfom monolithic ones ?
@@ -32,3 +33,4 @@ public:: true
 	- ### Question 2 : For a given problem, what's the optimal modularity we need ?
 		- This is in sort the inverse problem of the first one. Letting structure emerge from the requirements of the tasks
 		-
+-
