@@ -33,4 +33,5 @@ public:: true
 	- ### Question 2 : For a given problem, what's the optimal modularity we need ?
 		- This is in sort the inverse problem of the first one. Letting structure emerge from the requirements of the tasks
 		-
--
+- ## Second meeting
+	- # background-color:: yellow
